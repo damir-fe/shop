@@ -1,0 +1,39 @@
+
+.product-card {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 23px;
+  cursor: pointer;
+  
+  &__img {
+    background: #F7F7F7;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 29px;
+    padding: 50px 100px;
+    
+    img {
+      flex-shrink: 0;
+      max-width: 90px;
+    }
+  }
+  
+  &__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    margin-bottom: 15px;
+  }
+  
+  &__price {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #403E3C;
+  }
+}

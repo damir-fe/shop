@@ -1,0 +1,85 @@
+
+.product-sidebar {
+  width: 100%;
+  max-width: 309px;
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+  
+  .product-card {
+    width: 100%;
+    padding-right: 10px;
+  }
+  
+  &__title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    
+    span {
+      line-height: 16px;
+      margin-left: 8px;
+    }
+  }
+  
+  &__sort {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+    &-item {
+      margin-left: 32px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #403E3C;
+      position: relative;
+      background: #fff0;
+      padding: 0;
+      border: none;
+      cursor: pointer;
+
+      &.active {
+        &:after {
+          position: absolute;
+          content: '';
+          display: block;
+          width: 8px;
+          height: 8px;
+          background: #0F81E6;
+          border-radius: 50%;
+          margin: auto;
+          margin-top: 6px;
+          left: 0px;
+          right: 0px;
+        }
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+  
+  &__list {
+    margin-top: 35px;
+    max-height: 655px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 4px;               /* ширина scrollbar */
+    }
+    &::-webkit-scrollbar-track {
+      background: #fff0;        /* цвет дорожки */
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #72706E;    /* цвет плашки */
+      border-radius: 20px;       /* закругления плашки */
+      border: 0px solid;  /* padding вокруг плашки */
+    }
+  }
+}

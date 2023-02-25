@@ -1,0 +1,143 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 12",
+      "url": "https://cdn.citilink.ru/ZJro1TIlYxvQNhNWoiRW9mYxsEiYxhAZ0NM2OJfyjp0/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1808757_v01_b.jpg",
+      "color": "Синий",
+      "capacity": "128",
+      "price": 1200,
+      "rating": "4",
+      "ratings": "136",
+      "brand": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 14",
+      "url": "https://cdn.citilink.ru/tmtpDg8c8L2GMO82bh5jT31EnIvG3uyOsV3LQ4i4QT4/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1862618_v01_b.jpg",
+      "color": "Черный",
+      "capacity": "256",
+      "price": 1500,
+      "rating": "5",
+      "ratings": "122",
+      "brand": "Apple"
+    },
+    {
+      "id": 3,
+      "name": "iPhone 14",
+      "url": "https://cdn.citilink.ru/m6QtM-anRD0JLDnphlqxkOvDr6nCu8KHXGvaqsNRp-I/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1862619_v01_b.jpg",
+      "color": "Фиолетовый",
+      "capacity": "512",
+      "price": 1212,
+      "rating": "3",
+      "ratings": "12",
+      "brand": "Apple"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 12",
+      "url": "https://cdn.citilink.ru/TFV9y9apN3IWn9hjfYpV2DBKDY00WbBsLu7vbuTaWAQ/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1808760_v01_b.jpg",
+      "color": "Белый",
+      "capacity": "128",
+      "price": 1200,
+      "rating": "4",
+      "ratings": "136",
+      "brand": "Apple"
+    },
+    {
+      "id": 5,
+      "name": "iPhone 11",
+      "url": "https://cdn.citilink.ru/_0AjLt2ti9F06Fb8lFKCrTgffZBsI4fNnXTJKaBrQhQ/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1769183_v01_b.jpg",
+      "color": "Черный",
+      "capacity": "128",
+      "price": 1222,
+      "rating": "4",
+      "ratings": "222",
+      "brand": "Apple"
+    },
+    {
+      "id": 6,
+      "name": "iPhone 12",
+      "url": "https://cdn.citilink.ru/ZJro1TIlYxvQNhNWoiRW9mYxsEiYxhAZ0NM2OJfyjp0/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1808757_v01_b.jpg",
+      "color": "Синий",
+      "capacity": "128",
+      "price": 1200,
+      "rating": "4",
+      "ratings": "136",
+      "brand": "Apple"
+    },
+    {
+      "id": 7,
+      "name": "iPhone 14",
+      "url": "https://cdn.citilink.ru/tmtpDg8c8L2GMO82bh5jT31EnIvG3uyOsV3LQ4i4QT4/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1862618_v01_b.jpg",
+      "color": "Черный",
+      "capacity": "256",
+      "price": 1500,
+      "rating": "5",
+      "ratings": "122",
+      "brand": "Apple"
+    },
+    {
+      "id": 8,
+      "name": "iPhone 14",
+      "url": "https://cdn.citilink.ru/m6QtM-anRD0JLDnphlqxkOvDr6nCu8KHXGvaqsNRp-I/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1862619_v01_b.jpg",
+      "color": "Фиолетовый",
+      "capacity": "512",
+      "price": 1212,
+      "rating": "3",
+      "ratings": "12",
+      "brand": "Apple"
+    },
+    {
+      "id": 9,
+      "name": "iPhone 12",
+      "url": "https://cdn.citilink.ru/TFV9y9apN3IWn9hjfYpV2DBKDY00WbBsLu7vbuTaWAQ/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1808760_v01_b.jpg",
+      "color": "Белый",
+      "capacity": "128",
+      "price": 1200,
+      "rating": "4",
+      "ratings": "136",
+      "brand": "Apple"
+    },
+    {
+      "id": 10,
+      "name": "iPhone 11",
+      "url": "https://cdn.citilink.ru/_0AjLt2ti9F06Fb8lFKCrTgffZBsI4fNnXTJKaBrQhQ/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1769183_v01_b.jpg",
+      "color": "Черный",
+      "capacity": "128",
+      "price": 1222,
+      "rating": "4",
+      "ratings": "222",
+      "brand": "Apple"
+    }
+  ],
+  "cart": [
+    {
+      "color": "Синий",
+      "name": "iPhone 12",
+      "capacity": "128",
+      "quantity": 1,
+      "price": 1200,
+      "url": "https://cdn.citilink.ru/ZJro1TIlYxvQNhNWoiRW9mYxsEiYxhAZ0NM2OJfyjp0/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1808757_v01_b.jpg",
+      "id": 1
+    },
+    {
+      "color": "Фиолетовый",
+      "name": "iPhone 14",
+      "capacity": "512",
+      "quantity": 1,
+      "price": 1212,
+      "url": "https://cdn.citilink.ru/m6QtM-anRD0JLDnphlqxkOvDr6nCu8KHXGvaqsNRp-I/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1862619_v01_b.jpg",
+      "id": 2
+    },
+    {
+      "color": "Черный",
+      "name": "iPhone 14",
+      "capacity": "256",
+      "quantity": 1,
+      "price": 1500,
+      "url": "https://cdn.citilink.ru/tmtpDg8c8L2GMO82bh5jT31EnIvG3uyOsV3LQ4i4QT4/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1862618_v01_b.jpg",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  
+  &-bullet {
+    width: 12px;
+    height: 12px;
+    background: #B7D7F2;
+    border-radius: 50%;
+    margin-left: 8px;
+    position: relative;
+    
+    &:first-child {
+      margin-left: 0;
+    }
+    
+    &-active {
+      width: 22px;
+      height: 22px;
+      
+      &::after {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        content: '';
+        background: #4A9FEA;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

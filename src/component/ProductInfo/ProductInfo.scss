@@ -1,0 +1,137 @@
+
+.productInfo {
+  input {
+    cursor: pointer;
+  }
+  
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.005em;
+    color: #403E3C;
+    padding-bottom: 49px;
+    border-bottom: 0.4px solid rgba(64, 62, 60, 0.2);
+  }
+  
+  &__text {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #72706E;
+    margin-bottom: 23px;
+    
+    span {
+      font-weight: 700;
+      font-size: 19px;
+      line-height: 24px;
+      letter-spacing: 0.015em;
+      color: #403E3C;
+      margin-left: 8px;
+    }
+  }
+  
+  &__color {
+    padding-top: 29px;
+    padding-bottom: 26px;
+    border-bottom: 0.4px solid rgba(64, 62, 60, 0.2);
+  }
+
+  &__capacity {
+    padding-top: 29px;
+    padding-bottom: 26px;
+  }
+  
+  &__quantity {
+    input {
+      width: 100%;
+    }
+  }
+  
+  &__price {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #72706E;
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    span {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 48px;
+      letter-spacing: 0.005em;
+      color: #403E3C;
+      margin: 21px 0 24px;
+    }
+  }
+  
+  &__btn {
+    background: #0F81E6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 12px 33px;
+    border: none;
+    color: #fff;
+    margin-left: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  &__about {
+    &-title {
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 24px;
+      letter-spacing: 0.015em;
+      color: #403E3C;
+    }
+    
+    &-description {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.015em;
+      color: #403E3C;
+      margin-top: 17px;
+    }
+  }
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+  
+  &__title {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #440033;
+  }
+  
+  &__block {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    
+    &-num {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 24px;
+      letter-spacing: 0.015em;
+      color: #0F81E6;
+      margin-left: 24px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.product-item {
+  &__slider {
+    margin-top: 105px;
+    
+    .swiper {
+      text-align: center;
+    }
+    
+    img {
+      max-width: 314px;
+      width: 100%;
+    }
+  }
+}

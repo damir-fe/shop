@@ -1,0 +1,25 @@
+
+.cart {
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  &__btn {
+    background: #0F81E6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 12px 33px;
+    border: none;
+    color: #fff;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin: -10px 0 20px;
+  }
+}
