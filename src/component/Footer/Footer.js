@@ -11,7 +11,7 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col sm="4">
-                        <div className="header__logo logo"><Link to="/">iPurchase</Link></div>
+                        <div className="header__logo logo"><Link to="/shop">iPurchase</Link></div>
                     </Col>
                     <Col sm="8">
                         <div>© {new Date().getFullYear()} Все права защищены</div>

@@ -13,7 +13,7 @@ const Header = () => {
             <Container>
                 <Row>
                     <Col md="3">
-                        <div className="header__logo logo"><Link to="/">iPurchase</Link></div>
+                        <div className="header__logo logo"><Link to="/shop">iPurchase</Link></div>
                     </Col>
                     <Col md="5">
                         <nav className="header-navigation">

@@ -12,7 +12,7 @@ import Pagination from "../../Pagination/Pagination";
 let PageSize = 8;
 
 const ProductListPage = () => {    
-    const { products, error, isLoading } = useFetch("http://localhost:3001/products");
+    const { products, error, isLoading } = useFetch("https://damir-fe.github.io/shop/products");
 
     const [query, setQuery] = useState("");
     const [searchParam] = useState(["name"]);

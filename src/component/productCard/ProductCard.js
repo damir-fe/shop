@@ -6,7 +6,7 @@ const ProductCard = (props) => {
     const navigate = useNavigate();
     return (
         <div 
-            onClick={() => navigate(`/${props.id}`)} 
+            onClick={() => navigate(`/shop/${props.id}`)} 
             className="product-card"
         >
             <div className="product-card__img">

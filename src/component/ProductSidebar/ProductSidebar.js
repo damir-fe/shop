@@ -6,7 +6,7 @@ import useFetch from "../../hooks/useFetching";
 import './ProductSidebar.scss'
 
 const ProductSidebar = () => {
-    const { products, error, isLoading } = useFetch("http://localhost:3001/products");
+    const { products, error, isLoading } = useFetch("https://damir-fe.github.io/shop/products");
     
     return (
         <div className="product-sidebar">

@@ -1,5 +1,5 @@
 import {lazy, Suspense} from "react";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes, Navigate} from "react-router-dom";
 
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -20,12 +20,13 @@ function App() {
         <main>
           <Suspense fallback={"Loading"}>
             <Routes>
-              <Route path='/' element={<ProductListPage />} />
+              <Route path='/*' element={<Page404/>} />
+              <Route path='/' element={<Navigate to="/shop" />} />
+              <Route path='/shop' element={<ProductListPage />} />
               <Route path='/about' element={<About />} />
               <Route path='/reviews' element={<Reviews />} />
-              <Route path='/:id' element={<ProductItemPage/>} />
+              <Route path='/shop/:id' element={<ProductItemPage/>} />
               <Route path='/cart' element={<Cart/>} />
-              <Route path='*' element={<Page404/>} />
             </Routes>
           </Suspense>
         </main>
