@@ -138,6 +138,15 @@
       "price": 1500,
       "url": "https://cdn.citilink.ru/tmtpDg8c8L2GMO82bh5jT31EnIvG3uyOsV3LQ4i4QT4/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1862618_v01_b.jpg",
       "id": 3
+    },
+    {
+      "color": "Синий",
+      "name": "iPhone 12",
+      "capacity": "128",
+      "quantity": 1,
+      "price": 1200,
+      "url": "https://cdn.citilink.ru/ZJro1TIlYxvQNhNWoiRW9mYxsEiYxhAZ0NM2OJfyjp0/resizing_type:fit/gravity:sm/width:1200/height:1200/plain/items/1808757_v01_b.jpg",
+      "id": 4
     }
   ]
 }

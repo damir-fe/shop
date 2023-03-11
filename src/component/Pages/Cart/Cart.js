@@ -12,7 +12,7 @@ import axios from "axios";
 let PageSize = 8;
 
 const Cart = () => {
-    const { products, error, isLoading } = useFetch('https://damir-fe.github.io/shop/cart/');
+    const { products, error, isLoading } = useFetch('http://localhost:3001/cart/');
 
     const [currentPage, setCurrentPage] = useState(1);
     

@@ -12,7 +12,7 @@ import "./ProductItemPage.scss"
 
 const ProductItemPage = () => {
     const params = useParams();
-    const { products, error, isLoading } = useFetch('https://damir-fe.github.io/shop/products/' + params.id);
+    const { products, error, isLoading } = useFetch('http://localhost:3001/products/' + params.id);
 
     if (isLoading) {
         return <div style={{textAlign: "center"}}>Загрузка..</div>
